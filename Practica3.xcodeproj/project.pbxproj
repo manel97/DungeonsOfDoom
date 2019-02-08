@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8100613F21B6FC3800D9F3F2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100613E21B6FC3800D9F3F2 /* Menu.swift */; };
+		815C066521A5A6780037F4A9 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C066421A5A6780037F4A9 /* Shop.swift */; };
+		815C066721A5A68C0037F4A9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C066621A5A68C0037F4A9 /* Item.swift */; };
+		815E51C321C96D4A00A2D63A /* ataqueMonstruo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51C221C96D4A00A2D63A /* ataqueMonstruo.mp3 */; };
+		815E51C521C96D7300A2D63A /* heroeStrike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51C421C96D7200A2D63A /* heroeStrike.mp3 */; };
+		815E51C721C96E1F00A2D63A /* deadHeroe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51C621C96E1E00A2D63A /* deadHeroe.mp3 */; };
+		815E51C921C96E2500A2D63A /* deadMonster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51C821C96E2500A2D63A /* deadMonster.mp3 */; };
+		815E51CB21C972FD00A2D63A /* musicaFight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51CA21C972FD00A2D63A /* musicaFight.mp3 */; };
+		815E51CD21C9759600A2D63A /* monedas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51CC21C9759600A2D63A /* monedas.mp3 */; };
+		815E51CF21C976BF00A2D63A /* travisLaugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51CE21C976BF00A2D63A /* travisLaugh.mp3 */; };
+		815E51D121C9779D00A2D63A /* shopSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51D021C9779D00A2D63A /* shopSound.mp3 */; };
+		815E51D321C9788300A2D63A /* dungSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51D221C9788300A2D63A /* dungSound.mp3 */; };
+		815E51E221C97B5B00A2D63A /* yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 815E51E121C97B5A00A2D63A /* yes.mp3 */; };
+		816663AC21B819DD008EA1AD /* Fight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816663AB21B819DD008EA1AD /* Fight.swift */; };
+		81B814D121ADBE9700453FD2 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B814D021ADBE9700453FD2 /* Inventory.swift */; };
 		81FEEF56219C6B5100FF5554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF55219C6B5100FF5554 /* AppDelegate.swift */; };
 		81FEEF58219C6B5100FF5554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF57219C6B5100FF5554 /* ViewController.swift */; };
 		81FEEF5B219C6B5100FF5554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FEEF59219C6B5100FF5554 /* Main.storyboard */; };
@@ -14,6 +29,11 @@
 		81FEEF60219C6B5300FF5554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FEEF5E219C6B5300FF5554 /* LaunchScreen.storyboard */; };
 		81FEEF6B219C6B5300FF5554 /* Practica3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF6A219C6B5300FF5554 /* Practica3Tests.swift */; };
 		81FEEF76219C6B5300FF5554 /* Practica3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF75219C6B5300FF5554 /* Practica3UITests.swift */; };
+		81FEEF84219C6C4400FF5554 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF83219C6C4400FF5554 /* Heroe.swift */; };
+		81FEEF86219C6C4F00FF5554 /* Equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF85219C6C4F00FF5554 /* Equip.swift */; };
+		81FEEF88219C6C5B00FF5554 /* Dungeon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF87219C6C5B00FF5554 /* Dungeon.swift */; };
+		81FEEF8A219C6CED00FF5554 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF89219C6CED00FF5554 /* Monster.swift */; };
+		81FEEF8C219C6D3500FF5554 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FEEF8B219C6D3500FF5554 /* Dice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8100613E21B6FC3800D9F3F2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		815C066421A5A6780037F4A9 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		815C066621A5A68C0037F4A9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		815E51C221C96D4A00A2D63A /* ataqueMonstruo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ataqueMonstruo.mp3; path = ../../../../../Downloads/ataqueMonstruo.mp3; sourceTree = "<group>"; };
+		815E51C421C96D7200A2D63A /* heroeStrike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = heroeStrike.mp3; path = ../../../../../Downloads/heroeStrike.mp3; sourceTree = "<group>"; };
+		815E51C621C96E1E00A2D63A /* deadHeroe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = deadHeroe.mp3; path = ../../../../../Downloads/deadHeroe.mp3; sourceTree = "<group>"; };
+		815E51C821C96E2500A2D63A /* deadMonster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = deadMonster.mp3; path = ../../../../../Downloads/deadMonster.mp3; sourceTree = "<group>"; };
+		815E51CA21C972FD00A2D63A /* musicaFight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = musicaFight.mp3; path = ../../../../../Downloads/musicaFight.mp3; sourceTree = "<group>"; };
+		815E51CC21C9759600A2D63A /* monedas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = monedas.mp3; path = ../../../../../Downloads/monedas.mp3; sourceTree = "<group>"; };
+		815E51CE21C976BF00A2D63A /* travisLaugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = travisLaugh.mp3; path = ../../../../../Downloads/travisLaugh.mp3; sourceTree = "<group>"; };
+		815E51D021C9779D00A2D63A /* shopSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shopSound.mp3; path = ../../../../../Downloads/shopSound.mp3; sourceTree = "<group>"; };
+		815E51D221C9788300A2D63A /* dungSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dungSound.mp3; path = ../../../../../Downloads/dungSound.mp3; sourceTree = "<group>"; };
+		815E51D821C97A2800A2D63A /* invSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = invSound.mp3; sourceTree = "<group>"; };
+		815E51E121C97B5A00A2D63A /* yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yes.mp3; path = ../../../../../Downloads/yes.mp3; sourceTree = "<group>"; };
+		816663AB21B819DD008EA1AD /* Fight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fight.swift; sourceTree = "<group>"; };
+		81B814D021ADBE9700453FD2 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 		81FEEF52219C6B5100FF5554 /* Practica3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FEEF55219C6B5100FF5554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81FEEF57219C6B5100FF5554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +83,11 @@
 		81FEEF71219C6B5300FF5554 /* Practica3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FEEF75219C6B5300FF5554 /* Practica3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica3UITests.swift; sourceTree = "<group>"; };
 		81FEEF77219C6B5300FF5554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FEEF83219C6C4400FF5554 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		81FEEF85219C6C4F00FF5554 /* Equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equip.swift; sourceTree = "<group>"; };
+		81FEEF87219C6C5B00FF5554 /* Dungeon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeon.swift; sourceTree = "<group>"; };
+		81FEEF89219C6CED00FF5554 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		81FEEF8B219C6D3500FF5554 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +138,33 @@
 		81FEEF54219C6B5100FF5554 /* Practica3 */ = {
 			isa = PBXGroup;
 			children = (
+				815E51E121C97B5A00A2D63A /* yes.mp3 */,
+				815E51D821C97A2800A2D63A /* invSound.mp3 */,
+				815E51D221C9788300A2D63A /* dungSound.mp3 */,
+				815E51D021C9779D00A2D63A /* shopSound.mp3 */,
+				815E51CE21C976BF00A2D63A /* travisLaugh.mp3 */,
+				815E51CC21C9759600A2D63A /* monedas.mp3 */,
+				815E51CA21C972FD00A2D63A /* musicaFight.mp3 */,
+				815E51C821C96E2500A2D63A /* deadMonster.mp3 */,
+				815E51C621C96E1E00A2D63A /* deadHeroe.mp3 */,
+				815E51C421C96D7200A2D63A /* heroeStrike.mp3 */,
+				815E51C221C96D4A00A2D63A /* ataqueMonstruo.mp3 */,
 				81FEEF55219C6B5100FF5554 /* AppDelegate.swift */,
 				81FEEF57219C6B5100FF5554 /* ViewController.swift */,
 				81FEEF59219C6B5100FF5554 /* Main.storyboard */,
 				81FEEF5C219C6B5300FF5554 /* Assets.xcassets */,
 				81FEEF5E219C6B5300FF5554 /* LaunchScreen.storyboard */,
 				81FEEF61219C6B5300FF5554 /* Info.plist */,
+				81FEEF83219C6C4400FF5554 /* Heroe.swift */,
+				81FEEF85219C6C4F00FF5554 /* Equip.swift */,
+				81FEEF87219C6C5B00FF5554 /* Dungeon.swift */,
+				81FEEF89219C6CED00FF5554 /* Monster.swift */,
+				81FEEF8B219C6D3500FF5554 /* Dice.swift */,
+				815C066421A5A6780037F4A9 /* Shop.swift */,
+				815C066621A5A68C0037F4A9 /* Item.swift */,
+				81B814D021ADBE9700453FD2 /* Inventory.swift */,
+				8100613E21B6FC3800D9F3F2 /* Menu.swift */,
+				816663AB21B819DD008EA1AD /* Fight.swift */,
 			);
 			path = Practica3;
 			sourceTree = "<group>";
@@ -229,9 +291,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815E51C321C96D4A00A2D63A /* ataqueMonstruo.mp3 in Resources */,
+				815E51CB21C972FD00A2D63A /* musicaFight.mp3 in Resources */,
+				815E51D321C9788300A2D63A /* dungSound.mp3 in Resources */,
 				81FEEF60219C6B5300FF5554 /* LaunchScreen.storyboard in Resources */,
+				815E51D121C9779D00A2D63A /* shopSound.mp3 in Resources */,
+				815E51C721C96E1F00A2D63A /* deadHeroe.mp3 in Resources */,
+				815E51CD21C9759600A2D63A /* monedas.mp3 in Resources */,
+				815E51CF21C976BF00A2D63A /* travisLaugh.mp3 in Resources */,
+				815E51C521C96D7300A2D63A /* heroeStrike.mp3 in Resources */,
 				81FEEF5D219C6B5300FF5554 /* Assets.xcassets in Resources */,
 				81FEEF5B219C6B5100FF5554 /* Main.storyboard in Resources */,
+				815E51E221C97B5B00A2D63A /* yes.mp3 in Resources */,
+				815E51C921C96E2500A2D63A /* deadMonster.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +328,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816663AC21B819DD008EA1AD /* Fight.swift in Sources */,
+				81FEEF86219C6C4F00FF5554 /* Equip.swift in Sources */,
+				815C066721A5A68C0037F4A9 /* Item.swift in Sources */,
+				81B814D121ADBE9700453FD2 /* Inventory.swift in Sources */,
+				81FEEF8C219C6D3500FF5554 /* Dice.swift in Sources */,
 				81FEEF58219C6B5100FF5554 /* ViewController.swift in Sources */,
+				8100613F21B6FC3800D9F3F2 /* Menu.swift in Sources */,
+				81FEEF88219C6C5B00FF5554 /* Dungeon.swift in Sources */,
 				81FEEF56219C6B5100FF5554 /* AppDelegate.swift in Sources */,
+				81FEEF8A219C6CED00FF5554 /* Monster.swift in Sources */,
+				81FEEF84219C6C4400FF5554 /* Heroe.swift in Sources */,
+				815C066521A5A6780037F4A9 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
